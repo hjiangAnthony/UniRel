@@ -202,7 +202,8 @@ class UniRel:
 
 
 if __name__ == "__main__":
-    model_path = "./output/nyt/checkpoint-final"
+    #model_path = "./output/nyt/checkpoint-final"
+    model_path = '/home/anthony/projects/capstone_runtime/UniRel'
     unirel = UniRel(model_path, dataset_name="nyt")
     
     print(unirel.predict("In perhaps the most ambitious Mekong cruise attempt, Impulse Tourism, an operator based in Chiang Mai, Thailand, is organizing an expedition starting in November in Jinghong, a small city in the Yunnan province in China."))
